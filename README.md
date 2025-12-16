@@ -2,10 +2,4 @@
 <img src="https://i.postimg.cc/8PLwwqMb/SPOILER-image.png" height="260">
 </p>
 
-<h3 align="center">
- Redfênix é um servidor de Minecraft
-        fundado por Bananaty, PENGUIN11 e capi2kk
-        em 18 de Outubro de 2024 com o
-        objetivo de proporcionar
-        alegria aos jogadores de Minecraft.
-        </h3>
+<h2 align="center">Participe da próxima geração de servidores de Minecraft inspirada nos maiores networks do mundo, com BedWars, SkyWars, Duels, SkyBlock e muito mais. Eventos diários, rankings globais e recompensas insanas.</h2>
