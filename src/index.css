@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-950 text-slate-50 antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(
+      circle at 10% 20%,
+      rgba(248, 250, 252, 0.18) 0,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(148, 163, 184, 0.16) 0,
+      transparent 55%
+    );
+  background-size: 220px 220px, 260px 260px;
+  opacity: 0.08;
+  mix-blend-mode: screen;
+  animation: float-particles 40s linear infinite;
+  z-index: -1;
+}
+
+@keyframes float-particles {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-40px, -20px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+::selection {
+  background-color: rgba(248, 113, 113, 0.5);
+}
+
+
