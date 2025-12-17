@@ -23,4 +23,9 @@ Alguns mini-games
 
 </p>
 <br>
-`capi2kk is owner`
+
+<p align="center">
+
+- Redefenix `capi2kk is owener`
+
+</p>
