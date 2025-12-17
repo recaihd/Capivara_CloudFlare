@@ -22,3 +22,5 @@ Alguns mini-games
 
 
 </p>
+<br>
+`capi2kk is owner`
