@@ -16,6 +16,9 @@ const Footer: React.FC = () => {
           <a href="#" className="hover:text-primary-300">
             Política de privacidade
           </a>
+          <a href="https://github.com/Redefenix" className="hover:text-primary-300">
+            Github
+          </a>
           <a href="https://discord.gg/f4WbVRtgfn" className="hover:text-primary-300">
             Discord
           </a>
