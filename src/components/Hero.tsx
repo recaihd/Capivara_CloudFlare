@@ -17,18 +17,17 @@ const Hero: React.FC = () => {
   return (
     <section
       id="inicio"
-      className="bg-mc-pattern relative overflow-hidden border-b border-slate-800/60"
+      className="bg-mc-pattern bg-no-repeat bg-cover bg-center relative overflow-hidden border-b border-slate-800/60"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(248,113,113,0.15),_transparent_55%)]" />
       <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-10 px-4 py-16 text-center md:flex-row md:items-stretch md:text-left">
         <div className="flex-1 space-y-6">
           <p className="inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-slate-950/70 px-3 py-1 text-xs font-medium text-emerald-300 shadow-md shadow-emerald-500/20">
             <span
-              className={`h-2 w-2 rounded-full ${
-                isOnline === false
+              className={`h-2 w-2 rounded-full ${isOnline === false
                   ? "bg-red-500"
                   : "bg-emerald-400 animate-pulse"
-              }`}
+                }`}
             />
             {statusText}
           </p>
@@ -37,7 +36,7 @@ const Hero: React.FC = () => {
             <span className="bg-gradient-to-r from-primary-400 via-secondary-400 to-emerald-400 bg-clip-text text-transparent">
               minigames
             </span>{" "}
-             Redefenix Network
+            Redefenix Network
           </h1>
           <p className="max-w-xl text-sm text-slate-200 sm:text-base">
             Participe da próxima geração de servidores de Minecraft inspirada
@@ -69,7 +68,7 @@ const Hero: React.FC = () => {
                         setCopied(true);
                         setTimeout(() => setCopied(false), 1500);
                       })
-                      .catch(() => {});
+                      .catch(() => { });
                   }}
                   className="absolute inset-y-0 right-1 my-1 hidden items-center rounded-md bg-slate-800/80 px-2 text-[10px] font-semibold uppercase tracking-wide text-slate-200 shadow-sm hover:bg-slate-700 group-hover:flex"
                 >
@@ -114,8 +113,8 @@ const Hero: React.FC = () => {
                 {isOnline && onlinePlayers !== null
                   ? `${onlinePlayers} jogadores`
                   : isOnline === false
-                  ? "Servidor Offline"
-                  : "Carregando..."}
+                    ? "Servidor Offline"
+                    : "Carregando..."}
               </span>
             </div>
             <div className="aspect-video overflow-hidden rounded-xl border border-slate-700 bg-slate-900">

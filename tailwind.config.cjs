@@ -21,7 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         "mc-pattern":
-          "linear-gradient(135deg, rgba(15,23,42,0.9), rgba(30,64,175,0.85)), url('/images/fundo_site.png')"
+          "linear-gradient(135deg, rgba(15,23,42,0.9), rgba(30,64,175,0.85)), url('/images/fundo_site2.gif')"
       }
     }
   },
