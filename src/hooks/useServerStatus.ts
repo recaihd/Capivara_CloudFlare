@@ -7,7 +7,7 @@ export type ServerStatus = {
 };
 
 const STATUS_URL =
-  "https://api.mcsrvstat.us/2/xpro-1.syrtex-app.cloud:25808";
+  "https://api.mcsrvstat.us/2/zytronanet.play.srv.br:25205";
 
 export function useServerStatus(): ServerStatus {
   const [onlinePlayers, setOnlinePlayers] = useState<number | null>(null);

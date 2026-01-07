@@ -2,27 +2,27 @@ import type React from "react";
 
 const modes = [
   {
-    name: "BedWars",
-    desc: "Proteja sua cama, destrua os adversários e domine o céu em partidas frenéticas.",
+    name: "Sumo",
+    desc: "Luta 1v1, O primeiro que cair do ringue, perde.",
     tag: "Competitivo",
     players: "0 jogando"
   },
   {
-    name: "SkyWars",
-    desc: "Ilhas flutuantes, loot insano e PvP rápido para quem gosta de adrenalina.",
-    tag: "Clássico",
+    name: "FFA",
+    desc: "Todos contra todo, O último jogador vivo vence.",
+    tag: "Competitivo",
     players: "0 jogando"
   },
   {
     name: "Duels",
     desc: "1v1, Bridge, UHC, Combo e muito mais para treinar suas habilidades.",
-    tag: "Treino",
+    tag: "Competitivo",
     players: "0 jogando"
   },
   {
-    name: "SkyBlock",
-    desc: "Evolua sua ilha, farme recursos e participe da economia da network.",
-    tag: "RPG",
+    name: "CPVP",
+    desc: "um estilo de combate focado no uso estratégico de End Crystals (Cristais do Fim).",
+    tag: "Competitivo",
     players: "0 jogando"
   }
 ];
@@ -38,7 +38,7 @@ const GameModes: React.FC = () => {
           <div>
             <h2 className="text-2xl font-bold tracking-tight text-slate-50">
               Modos de jogo da{" "}
-              <span className="text-primary-400">Redefenix</span>
+              <span className="text-primary-400">Zytrona</span>
             </h2>
             <p className="mt-2 max-w-xl text-sm text-slate-300">
               Uma experiência completa de minigames inspirada em servidores como
@@ -48,7 +48,9 @@ const GameModes: React.FC = () => {
           </div>
           <p className="text-xs text-slate-400">
             Sugestões de novos modos? Entre no nosso{" "}
+            <a href="https://discord.gg/vmWAw4JzY2">
             <span className="font-semibold text-secondary-300">Discord</span>.
+            </a>
           </p>
         </div>
 

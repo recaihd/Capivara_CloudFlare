@@ -36,13 +36,13 @@ const Hero: React.FC = () => {
             <span className="bg-gradient-to-r from-primary-400 via-secondary-400 to-emerald-400 bg-clip-text text-transparent">
               minigames
             </span>{" "}
-            Redefenix Network
+            Zytrona Network
           </h1>
           <p className="max-w-xl text-sm text-slate-200 sm:text-base">
             Participe da próxima geração de servidores de Minecraft inspirada
             nos maiores networks do mundo, com{" "}
             <span className="font-semibold text-secondary-300">
-              BedWars, SkyWars, Duels, SkyBlock
+              Sumo, FFA, Duels, SkyBlock
             </span>{" "}
             e muito mais. Eventos diários, rankings globais e recompensas
             insanas.
@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
               </span>
               <div className="group relative w-full max-w-xs">
                 <code className="w-full rounded-md border border-slate-700 bg-slate-950/80 px-3 py-2 pr-10 font-mono text-[11px] text-emerald-300 shadow-inner shadow-slate-900 block truncate">
-                  xpro-1.syrtex-app.cloud:25808
+                  zytronanet.play.srv.br:25205
                 </code>
                 <button
                   type="button"

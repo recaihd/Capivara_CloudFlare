@@ -23,7 +23,7 @@ const StatsAndStore: React.FC = () => {
             Estatísticas em tempo real
           </h2>
           <p className="mt-2 max-w-xl text-sm text-slate-300">
-            Veja os números da Redefenix atualizados a cada minuto. Rankings
+            Veja os números da Zytrona atualizados a cada minuto. Rankings
             dedicados para cada modo de jogo, temporadas, níveis e muito mais.
           </p>
 
@@ -68,14 +68,14 @@ const StatsAndStore: React.FC = () => {
           <div className="flex items-center justify-between">
             <div>
               <h3 className="text-lg font-semibold tracking-tight text-slate-50">
-                Loja Redefenix
+                Loja Zytrona
               </h3>
               <p className="mt-1 text-xs text-slate-300">
                     Vips, armaduras, cosméticos exclusivos e mais.
               </p>
             </div>
             <a
-              href="#"
+              href="#loja"
               className="text-xs font-semibold uppercase tracking-wide text-primary-300 hover:text-primary-200"
             >
               Acessar loja
@@ -319,7 +319,7 @@ const StatsAndStore: React.FC = () => {
             id="comunidade"
             className="mt-4 text-[11px] text-slate-500"
           >
-            As compras ajudam a manter a Redefenix online e financiar novos
+            As compras ajudam a manter a Zytrona online e financiar novos
             minigames. Não é pay-to-win: todos os benefícios são cosméticos ou
             de conveniência.
           </p>
