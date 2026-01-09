@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
 
         <div className="flex items-center gap-3">
           <span className="hidden rounded-md border border-slate-700/70 bg-slate-900/80 px-3 py-1 text-xs font-mono text-slate-300 md:inline-flex">
-            zytrona.xyz
+            zytronanetwork.site
           </span>
           <a
             href="#jogar"
